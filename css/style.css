@@ -1,0 +1,1379 @@
+@font-face {
+  font-family: "TelefonicaWeb-Bold";
+  src: url("./fonts/TelefonicaWeb-Bold.eot");
+  src: url("./fonts/TelefonicaWeb-Bold.eot?iefix") format("eot"), url("./fonts/TelefonicaWeb-Bold.woff") format("woff"), url("./fonts/TelefonicaWeb-Bold.ttf") format("truetype"), url("./fonts/TelefonicaWeb-Bold.svg#webfontZhAFkZ39") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TelefonicaWeb-Regular";
+  src: url("./fonts/TelefonicaWeb-Regular.eot");
+  src: url("./fonts/TelefonicaWeb-Regular.eot?iefix") format("eot"), url("./fonts/TelefonicaWeb-Regular.woff") format("woff"), url("./fonts/TelefonicaWeb-Regular.ttf") format("truetype"), url("./fonts/TelefonicaWeb-Regular.svg#webfontZhAFkZ39") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TelefonicaWeb-RegularItalic";
+  src: url("./fonts/TelefonicaWeb-RegularItalic.eot");
+  src: url("./fonts/TelefonicaWeb-RegularItalic.eot?iefix") format("eot"), url("./fonts/TelefonicaWeb-RegularItalic.woff") format("woff"), url("./fonts/TelefonicaWeb-RegularItalic.ttf") format("truetype"), url("./fonts/TelefonicaWeb-RegularItalic.svg#webfontZhAFkZ39") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TelefonicaWeb-Light";
+  src: url("./fonts/TelefonicaWeb-Light.eot");
+  src: url("./fonts/TelefonicaWeb-Light.eot?iefix") format("eot"), url("./fonts/TelefonicaWeb-Light.woff") format("woff"), url("./fonts/TelefonicaWeb-Light.ttf") format("truetype"), url("./fonts/TelefonicaWeb-Light.svg#webfontZhAFkZ39") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TelefonicaWeb-ExtraLight";
+  src: url("./fonts/TelefonicaWeb-ExtraLight.eot");
+  src: url("./fonts/TelefonicaWeb-ExtraLight.eot?iefix") format("eot"), url("./fonts/TelefonicaWeb-ExtraLight.woff") format("woff"), url("./fonts/TelefonicaWeb-ExtraLight.ttf") format("truetype"), url("./fonts/TelefonicaWeb-ExtraLight.svg#webfontZhAFkZ39") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TelefonicaWeb-Hand";
+  src: url("./fonts/TelefonicaWeb-Hand.eot");
+  src: url("./fonts/TelefonicaWeb-Hand.eot?iefix") format("eot"), url("./fonts/TelefonicaWeb-Hand.woff") format("woff"), url("./fonts/TelefonicaWeb-Hand.ttf") format("truetype"), url("./fonts/TelefonicaWeb-Hand.svg#webfontZhAFkZ39") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: TelefonicaWeb-Regular;
+  font-size: 14px;
+  color: #86888c;
+  background: #f3f3f3;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+/****** PLANES MOVILES *******/
+.container-cards-offers {
+  display: flex;
+}
+.container-cards-offers .card-offers-plans {
+  margin: 20px;
+  width: 272px;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+}
+.container-cards-offers .card-offers-plans .card-offers-plans-header {
+  display: flex;
+  align-items: center;
+  border-top: 4px solid #0B2739;
+  border-radius: 5px 5px 0 0;
+}
+.container-cards-offers .card-offers-plans .card-offers-plans-header .card-offers-plans-header-featured {
+  content: "Oferta destacada";
+  position: absolute;
+  padding: 7px 25px 6px;
+  display: inline-block;
+  background: #0B2739;
+  border-radius: 0 0 11px 11px;
+  margin: auto;
+  right: 0px;
+  left: 0;
+  top: 0px;
+  width: max-content;
+  z-index: 1;
+  font-family: TelefonicaWeb-Bold;
+  font-size: 12px;
+  line-height: 1;
+  color: #fff;
+}
+.container-cards-offers .card-offers-plans .card-offers-plans-header .card-offers-plans-header-title {
+  width: 90%;
+}
+.container-cards-offers .card-offers-plans .card-offers-plans-header .card-offers-plans-header-title h5 {
+  color: #313235;
+  font: 16px TelefonicaWeb-Regular;
+  line-height: 1;
+  padding: 0 15px;
+}
+.container-cards-offers .card-offers-plans .card-offers-plans-header .card-offers-plans-header-title h5 strong {
+  font-family: TelefonicaWeb-Bold;
+  display: block;
+  font-size: 24px;
+}
+.container-cards-offers .card-offers-plans .card-offers-plans-header .card-offers-plans-header-plan-5g .plan-5g {
+  float: right;
+  width: 50px;
+  height: 45px;
+  background: #0B2739;
+  border-radius: 11.04px 0px 0px 11.04px;
+}
+.container-cards-offers .card-offers-plans .card-offers-plans-header .card-offers-plans-header-plan-5g .plan-5g .plan-5g-spinner {
+  background: url("./img/5g-spinner-plan-card-offers.svg") no-repeat center center;
+  width: 30px;
+  height: 29px;
+  margin: 9px auto 8px auto;
+}
+.container-cards-offers .card-offers-plans .card-offers-plans-header .card-offers-plans-header-plan-5g .plan-5g .plan-5g-icon {
+  position: absolute;
+  background: url("./img/5g-plan-card-offers.svg") no-repeat center center;
+  width: 23px;
+  height: 23px;
+  top: 40px;
+  right: 13px;
+}
+.container-cards-offers .card-offers-plans .card-offers-plans-separate {
+  padding: 0 20px;
+}
+.container-cards-offers .card-offers-plans .card-offers-plans-separate .card-offers-plans-separate-line {
+  border-top: solid 1px #CED4D7;
+}
+.container-cards-offers .card-offers-plans .card-offers-plans-body {
+  padding: 20px 20px 5px 10px;
+  text-align: center;
+}
+.container-cards-offers .card-offers-plans .card-offers-plans-body .lines-offers-plans {
+  font: 14px TelefonicaWeb-Bold;
+  background-color: #E63780;
+  color: #fff;
+  line-height: 1;
+  padding: 4px 6px 4px 6px;
+  border-radius: 4px;
+  text-align: center;
+  position: absolute;
+  width: fit-content;
+  margin: auto;
+  top: 87px;
+  left: 0;
+  right: 0;
+}
+.container-cards-offers .card-offers-plans .card-offers-plans-body .price-offers-plans {
+  font: 12px TelefonicaWeb-Regular;
+  color: #313235;
+}
+.container-cards-offers .card-offers-plans .card-offers-plans-body .price-offers-plans-mount-value {
+  color: #0B2739;
+  font-family: TelefonicaWeb-Bold;
+  font-size: 40px;
+}
+.container-cards-offers .card-offers-plans .card-offers-plans-body .price-offers-plans-mount-value .price-offers-plans-currency, .container-cards-offers .card-offers-plans .card-offers-plans-body .price-offers-plans-mount-value .price-offers-plans-each {
+  font-family: TelefonicaWeb-Regular !important;
+  font-style: normal;
+  font-size: 20px;
+}
+.container-cards-offers .card-offers-plans .card-offers-plans-body .btn-offers-plans-apply {
+  font: 14px TelefonicaWeb-Regular;
+  background: #019DF4;
+  color: #fff;
+  padding: 12px 0px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 10px auto;
+}
+.container-cards-offers .card-offers-plans .card-offers-plans-body .btn-offers-plans-apply:hover {
+  background: #0A7AC9;
+}
+.container-cards-offers .card-offers-plans .card-offers-plans-footer {
+  padding: 10px 0;
+}
+.container-cards-offers .card-offers-plans .card-offers-plans-footer .card-offers-plans-footer-list {
+  margin: 0;
+  padding: 0;
+}
+.container-cards-offers .card-offers-plans .card-offers-plans-footer .card-offers-plans-footer-list .card-offers-plans-footer-features {
+  font-size: 14px;
+  font-family: TelefonicaWeb-Regular;
+  color: #0B2739;
+  text-align: left;
+  padding: 11px 16px;
+}
+.container-cards-offers .card-offers-plans .card-offers-plans-footer .card-offers-plans-footer-list .card-offers-plans-footer-features i {
+  width: 20px;
+  height: 12px;
+  margin-right: 10px;
+  align-self: center;
+}
+.container-cards-offers .card-offers-plans .card-offers-plans-footer .card-offers-plans-footer-list .card-offers-plans-footer-features .icon-card-navegation:before {
+  content: url("./img/ico-card-navigation.svg");
+}
+.container-cards-offers .card-offers-plans .card-offers-plans-footer .card-offers-plans-footer-list .card-offers-plans-footer-features .icon-card-discount:before {
+  content: url("./img/ico-card-discount.svg");
+}
+.container-cards-offers .card-offers-plans .card-offers-plans-footer .card-offers-plans-footer-list .card-offers-plans-footer-features .icon-card-phone:before {
+  content: url("./img/ico-card-phone.svg");
+}
+.container-cards-offers .card-offers-plans .card-offers-plans-footer .card-offers-plans-footer-list .card-offers-plans-footer-features .icon-card-mail:before {
+  content: url("./img/ico-card-mail.svg");
+}
+.container-cards-offers .card-offers-plans .card-offers-plans-footer .card-offers-plans-footer-list .card-offers-plans-footer-features .icon-card-roaming:before {
+  content: url("./img/ico-card-roaming.svg");
+}
+.container-cards-offers .card-offers-plans .card-offers-plans-footer .card-offers-plans-footer-list .card-offers-plans-footer-features .icon-card-tooltip:before {
+  content: url("./img/ico-card-tooltip.svg");
+}
+.container-cards-offers .card-offers-plans:hover .plan-5g-icon {
+  animation: blink-plan-5g 1s linear;
+}
+@keyframes blink-plan-5g {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.container-cards-offers .card-offers-plans:hover .plan-5g-spinner {
+  animation: spin-plan-5g 3s linear infinite;
+}
+@keyframes spin-plan-5g {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/****** INTERNET EMPRESAS *******/
+.container-cards-internet-business {
+  display: flex;
+}
+.container-cards-internet-business .card-offers-internet-business {
+  margin: 20px;
+  width: 272px;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+}
+.container-cards-internet-business .card-offers-internet-business .card-offers-internet-business-header {
+  border-top: 4px solid #0B2739;
+  border-radius: 5px 5px 0 0;
+}
+.container-cards-internet-business .card-offers-internet-business .card-offers-internet-business-header .card-offers-internet-business-header-featured {
+  content: "Oferta destacada";
+  position: absolute;
+  padding: 7px 25px 6px;
+  display: inline-block;
+  background: #0B2739;
+  border-radius: 0 0 11px 11px;
+  margin: auto;
+  right: 0px;
+  left: 0;
+  top: 0px;
+  width: max-content;
+  z-index: 1;
+  font-family: TelefonicaWeb-Bold;
+  font-size: 12px;
+  line-height: 1;
+  color: #fff;
+}
+.container-cards-internet-business .card-offers-internet-business .card-offers-internet-business-header .card-offers-internet-business-header-title {
+  width: 100%;
+  text-align: center;
+}
+.container-cards-internet-business .card-offers-internet-business .card-offers-internet-business-header .card-offers-internet-business-header-title h5 {
+  color: #313235;
+  font: 16px TelefonicaWeb-Regular;
+  padding: 0 15px;
+}
+.container-cards-internet-business .card-offers-internet-business .card-offers-internet-business-header .card-offers-internet-business-header-title h5 strong {
+  font-family: TelefonicaWeb-Bold;
+  display: block;
+  font-size: 24px;
+}
+.container-cards-internet-business .card-offers-internet-business .card-offers-internet-business-separate {
+  padding: 0 20px;
+}
+.container-cards-internet-business .card-offers-internet-business .card-offers-internet-business-separate .card-offers-internet-business-separate-line {
+  border-top: solid 1px #CED4D7;
+}
+.container-cards-internet-business .card-offers-internet-business .card-offers-internet-business-body {
+  padding: 20px 20px 5px 10px;
+  text-align: center;
+}
+.container-cards-internet-business .card-offers-internet-business .card-offers-internet-business-body .lines-offers-internet-business {
+  font: 14px TelefonicaWeb-Bold;
+  background-color: #E63780;
+  color: #fff;
+  line-height: 1;
+  padding: 4px 6px 4px 6px;
+  border-radius: 4px;
+  text-align: center;
+  position: absolute;
+  width: fit-content;
+  margin: auto;
+  top: 97px;
+  left: 0;
+  right: 0;
+}
+.container-cards-internet-business .card-offers-internet-business .card-offers-internet-business-body .price-offers-internet-business {
+  font: 12px TelefonicaWeb-Regular;
+  color: #313235;
+}
+.container-cards-internet-business .card-offers-internet-business .card-offers-internet-business-body .price-offers-internet-business-mount-value {
+  color: #0B2739;
+  font-family: TelefonicaWeb-Bold;
+  font-size: 40px;
+}
+.container-cards-internet-business .card-offers-internet-business .card-offers-internet-business-body .price-offers-internet-business-mount-value .price-offers-internet-business-currency, .container-cards-internet-business .card-offers-internet-business .card-offers-internet-business-body .price-offers-internet-business-mount-value .price-offers-internet-business-each {
+  font-family: TelefonicaWeb-Regular !important;
+  font-style: normal;
+  font-size: 20px;
+}
+.container-cards-internet-business .card-offers-internet-business .card-offers-internet-business-body .btn-offers-internet-business-apply {
+  font: 14px TelefonicaWeb-Regular;
+  background: #019DF4;
+  color: #fff;
+  padding: 12px 0px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 10px auto;
+}
+.container-cards-internet-business .card-offers-internet-business .card-offers-internet-business-body .btn-offers-internet-business-apply:hover {
+  background: #0A7AC9;
+}
+.container-cards-internet-business .card-offers-internet-business .card-offers-internet-business-footer {
+  padding: 10px 0;
+}
+.container-cards-internet-business .card-offers-internet-business .card-offers-internet-business-footer .card-offers-internet-business-footer-list {
+  margin: 0;
+  padding: 0;
+}
+.container-cards-internet-business .card-offers-internet-business .card-offers-internet-business-footer .card-offers-internet-business-footer-list .card-offers-internet-business-footer-features {
+  font-size: 14px;
+  font-family: TelefonicaWeb-Regular;
+  color: #0B2739;
+  text-align: left;
+  padding: 11px 16px;
+  display: flex;
+}
+.container-cards-internet-business .card-offers-internet-business .card-offers-internet-business-footer .card-offers-internet-business-footer-list .card-offers-internet-business-footer-features i {
+  width: 20px;
+  height: 12px;
+  margin-right: 10px;
+  align-self: center;
+}
+.container-cards-internet-business .card-offers-internet-business .card-offers-internet-business-footer .card-offers-internet-business-footer-list .card-offers-internet-business-footer-features strong {
+  display: contents;
+}
+.container-cards-internet-business .card-offers-internet-business .card-offers-internet-business-footer .card-offers-internet-business-footer-list .card-offers-internet-business-footer-features .icon-card-navegation:before {
+  content: url("./img/ico-card-navigation.svg");
+}
+.container-cards-internet-business .card-offers-internet-business .card-offers-internet-business-footer .card-offers-internet-business-footer-list .card-offers-internet-business-footer-features .icon-card-check:before {
+  content: url("./img/ico-card-check.svg");
+}
+
+/****** INTERNET DEDICADO *******/
+.container-cards-internet-dedicado {
+  display: flex;
+}
+.container-cards-internet-dedicado .card-offers-internet-dedicado {
+  margin: 20px;
+  width: 272px;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+}
+.container-cards-internet-dedicado .card-offers-internet-dedicado .card-offers-internet-dedicado-header {
+  border-top: 4px solid #0B2739;
+  border-radius: 5px 5px 0 0;
+}
+.container-cards-internet-dedicado .card-offers-internet-dedicado .card-offers-internet-dedicado-header .card-offers-internet-dedicado-header-featured {
+  content: "Oferta destacada";
+  position: absolute;
+  padding: 7px 25px 6px;
+  display: inline-block;
+  background: #0B2739;
+  border-radius: 0 0 11px 11px;
+  margin: auto;
+  right: 0px;
+  left: 0;
+  top: 0px;
+  width: max-content;
+  z-index: 1;
+  font-family: TelefonicaWeb-Bold;
+  font-size: 12px;
+  line-height: 1;
+  color: #fff;
+}
+.container-cards-internet-dedicado .card-offers-internet-dedicado .card-offers-internet-dedicado-header .card-offers-internet-dedicado-header-title {
+  width: 100%;
+  text-align: center;
+}
+.container-cards-internet-dedicado .card-offers-internet-dedicado .card-offers-internet-dedicado-header .card-offers-internet-dedicado-header-title h5 {
+  color: #313235;
+  font: 16px TelefonicaWeb-Regular;
+  padding: 0 15px;
+}
+.container-cards-internet-dedicado .card-offers-internet-dedicado .card-offers-internet-dedicado-header .card-offers-internet-dedicado-header-title h5 strong {
+  font-family: TelefonicaWeb-Bold;
+  display: block;
+  font-size: 24px;
+}
+.container-cards-internet-dedicado .card-offers-internet-dedicado .card-offers-internet-dedicado-separate {
+  padding: 0 20px;
+}
+.container-cards-internet-dedicado .card-offers-internet-dedicado .card-offers-internet-dedicado-separate .card-offers-internet-dedicado-separate-line {
+  border-top: solid 1px #CED4D7;
+}
+.container-cards-internet-dedicado .card-offers-internet-dedicado .card-offers-internet-dedicado-body {
+  padding: 20px 20px 5px 10px;
+  text-align: center;
+}
+.container-cards-internet-dedicado .card-offers-internet-dedicado .card-offers-internet-dedicado-body .lines-offers-internet-dedicado {
+  font: 14px TelefonicaWeb-Bold;
+  background-color: #E63780;
+  color: #fff;
+  line-height: 1;
+  padding: 4px 6px 4px 6px;
+  border-radius: 4px;
+  text-align: center;
+  position: absolute;
+  width: fit-content;
+  margin: auto;
+  top: 97px;
+  left: 0;
+  right: 0;
+}
+.container-cards-internet-dedicado .card-offers-internet-dedicado .card-offers-internet-dedicado-body .price-offers-internet-dedicado {
+  font: 12px TelefonicaWeb-Regular;
+  color: #313235;
+}
+.container-cards-internet-dedicado .card-offers-internet-dedicado .card-offers-internet-dedicado-body .price-offers-internet-dedicado-mount-value {
+  color: #0B2739;
+  font-family: TelefonicaWeb-Bold;
+  font-size: 40px;
+}
+.container-cards-internet-dedicado .card-offers-internet-dedicado .card-offers-internet-dedicado-body .price-offers-internet-dedicado-mount-value .price-offers-internet-dedicado-currency, .container-cards-internet-dedicado .card-offers-internet-dedicado .card-offers-internet-dedicado-body .price-offers-internet-dedicado-mount-value .price-offers-internet-dedicado-each {
+  font-family: TelefonicaWeb-Regular !important;
+  font-style: normal;
+  font-size: 20px;
+}
+.container-cards-internet-dedicado .card-offers-internet-dedicado .card-offers-internet-dedicado-body .btn-offers-internet-dedicado-apply {
+  font: 14px TelefonicaWeb-Regular;
+  background: #019DF4;
+  color: #fff;
+  padding: 12px 0px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 10px auto;
+}
+.container-cards-internet-dedicado .card-offers-internet-dedicado .card-offers-internet-dedicado-body .btn-offers-internet-dedicado-apply:hover {
+  background: #0A7AC9;
+}
+.container-cards-internet-dedicado .card-offers-internet-dedicado .card-offers-internet-dedicado-footer {
+  padding: 10px 0;
+}
+.container-cards-internet-dedicado .card-offers-internet-dedicado .card-offers-internet-dedicado-footer .card-offers-internet-dedicado-footer-list {
+  margin: 0;
+  padding: 0;
+}
+.container-cards-internet-dedicado .card-offers-internet-dedicado .card-offers-internet-dedicado-footer .card-offers-internet-dedicado-footer-list .card-offers-internet-dedicado-footer-features {
+  font-size: 14px;
+  font-family: TelefonicaWeb-Regular;
+  color: #0B2739;
+  text-align: left;
+  padding: 11px 16px;
+  display: flex;
+}
+.container-cards-internet-dedicado .card-offers-internet-dedicado .card-offers-internet-dedicado-footer .card-offers-internet-dedicado-footer-list .card-offers-internet-dedicado-footer-features i {
+  width: 20px;
+  height: 12px;
+  margin-right: 10px;
+  align-self: center;
+}
+.container-cards-internet-dedicado .card-offers-internet-dedicado .card-offers-internet-dedicado-footer .card-offers-internet-dedicado-footer-list .card-offers-internet-dedicado-footer-features strong {
+  display: contents;
+}
+.container-cards-internet-dedicado .card-offers-internet-dedicado .card-offers-internet-dedicado-footer .card-offers-internet-dedicado-footer-list .card-offers-internet-dedicado-footer-features .icon-card-check:before {
+  content: url("./img/ico-card-check.svg");
+}
+.container-cards-internet-dedicado .card-offers-internet-dedicado .card-offers-internet-dedicado-footer .card-offers-internet-dedicado-footer-list .card-offers-internet-dedicado-footer-features .icon-card-phone:before {
+  content: url("./img/ico-card-phone.svg");
+}
+.container-cards-internet-dedicado .card-offers-internet-dedicado .card-offers-internet-dedicado-footer .card-offers-internet-dedicado-footer-list .card-offers-internet-dedicado-footer-features .icon-card-mail:before {
+  content: url("./img/ico-card-mail.svg");
+}
+.container-cards-internet-dedicado .card-offers-internet-dedicado .card-offers-internet-dedicado-footer .card-offers-internet-dedicado-footer-list .card-offers-internet-dedicado-footer-features .icon-card-roaming:before {
+  content: url("./img/ico-card-roaming.svg");
+}
+.container-cards-internet-dedicado .card-offers-internet-dedicado .card-offers-internet-dedicado-footer .card-offers-internet-dedicado-footer-list .card-offers-internet-dedicado-footer-features .icon-card-tv:before {
+  content: url("./img/ico-card-tv.svg");
+}
+
+/****** WIFI MOVIL *******/
+.container-cards-wifi-movil {
+  display: flex;
+}
+.container-cards-wifi-movil .card-offers-wifi-movil {
+  margin: 20px;
+  width: 272px;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+}
+.container-cards-wifi-movil .card-offers-wifi-movil .card-offers-wifi-movil-header {
+  border-top: 4px solid #0B2739;
+  border-radius: 5px 5px 0 0;
+}
+.container-cards-wifi-movil .card-offers-wifi-movil .card-offers-wifi-movil-header .card-offers-wifi-movil-header-featured {
+  content: "Oferta destacada";
+  position: absolute;
+  padding: 7px 25px 6px;
+  display: inline-block;
+  background: #0B2739;
+  border-radius: 0 0 11px 11px;
+  margin: auto;
+  right: 0px;
+  left: 0;
+  top: 0px;
+  width: max-content;
+  z-index: 1;
+  font-family: TelefonicaWeb-Bold;
+  font-size: 12px;
+  line-height: 1;
+  color: #fff;
+}
+.container-cards-wifi-movil .card-offers-wifi-movil .card-offers-wifi-movil-header .card-offers-wifi-movil-header-title {
+  width: 100%;
+  text-align: center;
+}
+.container-cards-wifi-movil .card-offers-wifi-movil .card-offers-wifi-movil-header .card-offers-wifi-movil-header-title h5 {
+  color: #313235;
+  font: 16px TelefonicaWeb-Regular;
+  padding: 0 15px;
+}
+.container-cards-wifi-movil .card-offers-wifi-movil .card-offers-wifi-movil-header .card-offers-wifi-movil-header-title h5 strong {
+  font-family: TelefonicaWeb-Bold;
+  display: block;
+  font-size: 24px;
+}
+.container-cards-wifi-movil .card-offers-wifi-movil .card-offers-wifi-movil-separate {
+  padding: 0 20px;
+}
+.container-cards-wifi-movil .card-offers-wifi-movil .card-offers-wifi-movil-separate .card-offers-wifi-movil-separate-line {
+  border-top: solid 1px #CED4D7;
+}
+.container-cards-wifi-movil .card-offers-wifi-movil .card-offers-wifi-movil-body {
+  padding: 20px 20px 5px 10px;
+  text-align: center;
+}
+.container-cards-wifi-movil .card-offers-wifi-movil .card-offers-wifi-movil-body .lines-offers-wifi-movil {
+  background-color: #E63780;
+  color: #fff;
+  line-height: 1;
+  padding: 4px 6px 4px 6px;
+  border-radius: 4px;
+  text-align: center;
+  position: absolute;
+  width: fit-content;
+  margin: auto;
+  top: 97px;
+  left: 0;
+  right: 0;
+}
+.container-cards-wifi-movil .card-offers-wifi-movil .card-offers-wifi-movil-body .price-offers-wifi-movil {
+  font: 12px TelefonicaWeb-Regular;
+  color: #313235;
+}
+.container-cards-wifi-movil .card-offers-wifi-movil .card-offers-wifi-movil-body .price-offers-wifi-movil-mount-value {
+  color: #0B2739;
+  font-family: TelefonicaWeb-Bold;
+  font-size: 40px;
+}
+.container-cards-wifi-movil .card-offers-wifi-movil .card-offers-wifi-movil-body .price-offers-wifi-movil-mount-value .price-offers-wifi-movil-currency, .container-cards-wifi-movil .card-offers-wifi-movil .card-offers-wifi-movil-body .price-offers-wifi-movil-mount-value .price-offers-wifi-movil-each {
+  font-family: TelefonicaWeb-Regular !important;
+  font-style: normal;
+  font-size: 20px;
+}
+.container-cards-wifi-movil .card-offers-wifi-movil .card-offers-wifi-movil-body .btn-offers-wifi-movil-apply {
+  font: 14px TelefonicaWeb-Regular;
+  background: #019DF4;
+  color: #fff;
+  padding: 12px 0px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 10px auto;
+}
+.container-cards-wifi-movil .card-offers-wifi-movil .card-offers-wifi-movil-body .btn-offers-wifi-movil-apply:hover {
+  background: #0A7AC9;
+}
+.container-cards-wifi-movil .card-offers-wifi-movil .card-offers-wifi-movil-footer {
+  padding: 10px 0;
+}
+.container-cards-wifi-movil .card-offers-wifi-movil .card-offers-wifi-movil-footer .card-offers-wifi-movil-footer-list {
+  margin: 0;
+  padding: 0;
+}
+.container-cards-wifi-movil .card-offers-wifi-movil .card-offers-wifi-movil-footer .card-offers-wifi-movil-footer-list .card-offers-wifi-movil-footer-features {
+  font-size: 14px;
+  font-family: TelefonicaWeb-Regular;
+  color: #0B2739;
+  text-align: left;
+  padding: 11px 16px;
+  display: flex;
+}
+.container-cards-wifi-movil .card-offers-wifi-movil .card-offers-wifi-movil-footer .card-offers-wifi-movil-footer-list .card-offers-wifi-movil-footer-features i {
+  width: 20px;
+  height: 12px;
+  margin-right: 10px;
+  align-self: center;
+}
+.container-cards-wifi-movil .card-offers-wifi-movil .card-offers-wifi-movil-footer .card-offers-wifi-movil-footer-list .card-offers-wifi-movil-footer-features strong {
+  display: contents;
+}
+.container-cards-wifi-movil .card-offers-wifi-movil .card-offers-wifi-movil-footer .card-offers-wifi-movil-footer-list .card-offers-wifi-movil-footer-features .icon-card-navegation:before {
+  content: url("./img/ico-card-navigation.svg");
+}
+.container-cards-wifi-movil .card-offers-wifi-movil .card-offers-wifi-movil-footer .card-offers-wifi-movil-footer-list .card-offers-wifi-movil-footer-features .icon-card-discount:before {
+  content: url("./img/ico-card-discount.svg");
+}
+
+/****** PACKS DUOS *******/
+.container-cards-packs-duos {
+  display: flex;
+}
+.container-cards-packs-duos .card-offers-packs-duos {
+  margin: 20px;
+  width: 272px;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+}
+.container-cards-packs-duos .card-offers-packs-duos .card-offers-packs-duos-header {
+  border-top: 4px solid #0B2739;
+  border-radius: 5px 5px 0 0;
+}
+.container-cards-packs-duos .card-offers-packs-duos .card-offers-packs-duos-header .card-offers-packs-duos-header-featured {
+  content: "Oferta destacada";
+  position: absolute;
+  padding: 7px 25px 6px;
+  display: inline-block;
+  background: #0B2739;
+  border-radius: 0 0 11px 11px;
+  margin: auto;
+  right: 0px;
+  left: 0;
+  top: 0px;
+  width: max-content;
+  z-index: 1;
+  font-family: TelefonicaWeb-Bold;
+  font-size: 12px;
+  line-height: 1;
+  color: #fff;
+}
+.container-cards-packs-duos .card-offers-packs-duos .card-offers-packs-duos-header .card-offers-packs-duos-header-title {
+  width: 100%;
+  text-align: center;
+}
+.container-cards-packs-duos .card-offers-packs-duos .card-offers-packs-duos-header .card-offers-packs-duos-header-title h5 {
+  color: #313235;
+  font: 16px TelefonicaWeb-Regular;
+  padding: 0 15px;
+}
+.container-cards-packs-duos .card-offers-packs-duos .card-offers-packs-duos-header .card-offers-packs-duos-header-title h5 strong {
+  font-family: TelefonicaWeb-Bold;
+  display: block;
+  font-size: 20px;
+}
+.container-cards-packs-duos .card-offers-packs-duos .card-offers-packs-duos-separate {
+  padding: 0 20px;
+}
+.container-cards-packs-duos .card-offers-packs-duos .card-offers-packs-duos-separate .card-offers-packs-duos-separate-line {
+  border-top: solid 1px #CED4D7;
+}
+.container-cards-packs-duos .card-offers-packs-duos .card-offers-packs-duos-body {
+  padding: 20px 20px 5px 10px;
+  text-align: center;
+}
+.container-cards-packs-duos .card-offers-packs-duos .card-offers-packs-duos-body .lines-offers-packs-duos {
+  font: 14px TelefonicaWeb-Bold;
+  background-color: #E63780;
+  color: #fff;
+  line-height: 1;
+  padding: 4px 6px 4px 6px;
+  border-radius: 4px;
+  text-align: center;
+  position: absolute;
+  width: fit-content;
+  margin: auto;
+  top: 116px;
+  left: 0;
+  right: 0;
+}
+.container-cards-packs-duos .card-offers-packs-duos .card-offers-packs-duos-body .price-offers-packs-duos {
+  font: 12px TelefonicaWeb-Regular;
+  color: #313235;
+}
+.container-cards-packs-duos .card-offers-packs-duos .card-offers-packs-duos-body .price-offers-packs-duos-mount-value {
+  color: #0B2739;
+  font-family: TelefonicaWeb-Bold;
+  font-size: 40px;
+}
+.container-cards-packs-duos .card-offers-packs-duos .card-offers-packs-duos-body .price-offers-packs-duos-mount-value .price-offers-packs-duos-currency, .container-cards-packs-duos .card-offers-packs-duos .card-offers-packs-duos-body .price-offers-packs-duos-mount-value .price-offers-packs-duos-each {
+  font-family: TelefonicaWeb-Regular !important;
+  font-style: normal;
+  font-size: 20px;
+}
+.container-cards-packs-duos .card-offers-packs-duos .card-offers-packs-duos-body .btn-offers-packs-duos-apply {
+  font: 14px TelefonicaWeb-Regular;
+  background: #019DF4;
+  color: #fff;
+  padding: 12px 0px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 10px auto;
+}
+.container-cards-packs-duos .card-offers-packs-duos .card-offers-packs-duos-body .btn-offers-packs-duos-apply:hover {
+  background: #0A7AC9;
+}
+.container-cards-packs-duos .card-offers-packs-duos .card-offers-packs-duos-footer {
+  padding: 10px 0;
+}
+.container-cards-packs-duos .card-offers-packs-duos .card-offers-packs-duos-footer .card-offers-packs-duos-footer-list {
+  margin: 0;
+  padding: 0;
+}
+.container-cards-packs-duos .card-offers-packs-duos .card-offers-packs-duos-footer .card-offers-packs-duos-footer-list .card-offers-packs-duos-footer-features {
+  font-size: 14px;
+  font-family: TelefonicaWeb-Regular;
+  color: #0B2739;
+  text-align: left;
+  padding: 11px 16px;
+  display: flex;
+}
+.container-cards-packs-duos .card-offers-packs-duos .card-offers-packs-duos-footer .card-offers-packs-duos-footer-list .card-offers-packs-duos-footer-features i {
+  width: 20px;
+  height: 12px;
+  margin-right: 10px;
+  align-self: center;
+}
+.container-cards-packs-duos .card-offers-packs-duos .card-offers-packs-duos-footer .card-offers-packs-duos-footer-list .card-offers-packs-duos-footer-features strong {
+  display: contents;
+}
+.container-cards-packs-duos .card-offers-packs-duos .card-offers-packs-duos-footer .card-offers-packs-duos-footer-list .card-offers-packs-duos-footer-features .icon-card-navegation:before {
+  content: url("./img/ico-card-navigation.svg");
+}
+.container-cards-packs-duos .card-offers-packs-duos .card-offers-packs-duos-footer .card-offers-packs-duos-footer-list .card-offers-packs-duos-footer-features .icon-card-phone:before {
+  content: url("./img/ico-card-phone.svg");
+}
+
+/****** PACKS TRIOS *******/
+.container-cards-packs-trios {
+  display: flex;
+}
+.container-cards-packs-trios .card-offers-packs-trios {
+  margin: 20px;
+  width: 272px;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+}
+.container-cards-packs-trios .card-offers-packs-trios .card-offers-packs-trios-header {
+  border-top: 4px solid #0B2739;
+  border-radius: 5px 5px 0 0;
+}
+.container-cards-packs-trios .card-offers-packs-trios .card-offers-packs-trios-header .card-offers-packs-trios-header-featured {
+  content: "Oferta destacada";
+  position: absolute;
+  padding: 7px 25px 6px;
+  display: inline-block;
+  background: #0B2739;
+  border-radius: 0 0 11px 11px;
+  margin: auto;
+  right: 0px;
+  left: 0;
+  top: 0px;
+  width: max-content;
+  z-index: 1;
+  font-family: TelefonicaWeb-Bold;
+  font-size: 12px;
+  line-height: 1;
+  color: #fff;
+}
+.container-cards-packs-trios .card-offers-packs-trios .card-offers-packs-trios-header .card-offers-packs-trios-header-title {
+  width: 100%;
+  text-align: center;
+}
+.container-cards-packs-trios .card-offers-packs-trios .card-offers-packs-trios-header .card-offers-packs-trios-header-title h5 {
+  color: #313235;
+  font: 16px TelefonicaWeb-Regular;
+  padding: 0 15px;
+}
+.container-cards-packs-trios .card-offers-packs-trios .card-offers-packs-trios-header .card-offers-packs-trios-header-title h5 strong {
+  font-family: TelefonicaWeb-Bold;
+  display: block;
+  font-size: 20px;
+}
+.container-cards-packs-trios .card-offers-packs-trios .card-offers-packs-trios-separate {
+  padding: 0 20px;
+}
+.container-cards-packs-trios .card-offers-packs-trios .card-offers-packs-trios-separate .card-offers-packs-trios-separate-line {
+  border-top: solid 1px #CED4D7;
+}
+.container-cards-packs-trios .card-offers-packs-trios .card-offers-packs-trios-body {
+  padding: 20px 20px 5px 10px;
+  text-align: center;
+}
+.container-cards-packs-trios .card-offers-packs-trios .card-offers-packs-trios-body .lines-offers-packs-trios {
+  font: 14px TelefonicaWeb-Bold;
+  background-color: #E63780;
+  color: #fff;
+  line-height: 1;
+  padding: 4px 6px 4px 6px;
+  border-radius: 4px;
+  text-align: center;
+  position: absolute;
+  width: fit-content;
+  margin: auto;
+  top: 116px;
+  left: 0;
+  right: 0;
+}
+.container-cards-packs-trios .card-offers-packs-trios .card-offers-packs-trios-body .price-offers-packs-trios {
+  font: 12px TelefonicaWeb-Regular;
+  color: #313235;
+}
+.container-cards-packs-trios .card-offers-packs-trios .card-offers-packs-trios-body .price-offers-packs-trios-mount-value {
+  color: #0B2739;
+  font-family: TelefonicaWeb-Bold;
+  font-size: 40px;
+}
+.container-cards-packs-trios .card-offers-packs-trios .card-offers-packs-trios-body .price-offers-packs-trios-mount-value .price-offers-packs-trios-currency, .container-cards-packs-trios .card-offers-packs-trios .card-offers-packs-trios-body .price-offers-packs-trios-mount-value .price-offers-packs-trios-each {
+  font-family: TelefonicaWeb-Regular !important;
+  font-style: normal;
+  font-size: 20px;
+}
+.container-cards-packs-trios .card-offers-packs-trios .card-offers-packs-trios-body .btn-offers-packs-trios-apply {
+  font: 14px TelefonicaWeb-Regular;
+  background: #019DF4;
+  color: #fff;
+  padding: 12px 0px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 10px auto;
+}
+.container-cards-packs-trios .card-offers-packs-trios .card-offers-packs-trios-body .btn-offers-packs-trios-apply:hover {
+  background: #0A7AC9;
+}
+.container-cards-packs-trios .card-offers-packs-trios .card-offers-packs-trios-footer {
+  padding: 10px 0;
+}
+.container-cards-packs-trios .card-offers-packs-trios .card-offers-packs-trios-footer .card-offers-packs-trios-footer-list {
+  margin: 0;
+  padding: 0;
+}
+.container-cards-packs-trios .card-offers-packs-trios .card-offers-packs-trios-footer .card-offers-packs-trios-footer-list .card-offers-packs-trios-footer-features {
+  font-size: 14px;
+  font-family: TelefonicaWeb-Regular;
+  color: #0B2739;
+  text-align: left;
+  padding: 11px 16px;
+  display: flex;
+}
+.container-cards-packs-trios .card-offers-packs-trios .card-offers-packs-trios-footer .card-offers-packs-trios-footer-list .card-offers-packs-trios-footer-features i {
+  width: 20px;
+  height: 12px;
+  margin-right: 10px;
+  align-self: center;
+}
+.container-cards-packs-trios .card-offers-packs-trios .card-offers-packs-trios-footer .card-offers-packs-trios-footer-list .card-offers-packs-trios-footer-features strong {
+  display: contents;
+}
+.container-cards-packs-trios .card-offers-packs-trios .card-offers-packs-trios-footer .card-offers-packs-trios-footer-list .card-offers-packs-trios-footer-features .icon-card-navegation:before {
+  content: url("./img/ico-card-navigation.svg");
+}
+.container-cards-packs-trios .card-offers-packs-trios .card-offers-packs-trios-footer .card-offers-packs-trios-footer-list .card-offers-packs-trios-footer-features .icon-card-phone:before {
+  content: url("./img/ico-card-phone.svg");
+}
+.container-cards-packs-trios .card-offers-packs-trios .card-offers-packs-trios-footer .card-offers-packs-trios-footer-list .card-offers-packs-trios-footer-features .icon-card-tv:before {
+  content: url("./img/ico-card-tv.svg");
+}
+.container-cards-packs-trios .card-offers-packs-trios .card-offers-packs-trios-footer .card-offers-packs-trios-footer-list .card-offers-packs-trios-footer-features a {
+  color: #019DF4;
+  display: contents;
+}
+
+/****** PORTABILIDAD EQUIPO *******/
+.container-port-equipment {
+  display: flex;
+}
+.container-port-equipment .card-port-equipment {
+  margin: 20px;
+  width: 272px;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-header {
+  display: flex;
+  align-items: center;
+  border-top: 4px solid #0B2739;
+  border-radius: 5px 5px 0 0;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-header .card-port-equipment-header-featured {
+  content: "Oferta destacada";
+  position: absolute;
+  padding: 7px 25px 6px;
+  display: inline-block;
+  background: #0B2739;
+  border-radius: 0 0 11px 11px;
+  margin: auto;
+  right: 0px;
+  left: 0;
+  top: 0px;
+  width: max-content;
+  z-index: 1;
+  font-family: TelefonicaWeb-Bold;
+  font-size: 12px;
+  line-height: 1;
+  color: #fff;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-header .card-port-equipment-header-title {
+  width: 90%;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-header .card-port-equipment-header-title h5 {
+  color: #313235;
+  font: 16px TelefonicaWeb-Regular;
+  padding: 0 15px;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-header .card-port-equipment-header-title h5 strong {
+  font-family: TelefonicaWeb-Bold;
+  display: block;
+  font-size: 24px;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-header .card-port-equipment-header-plan-5g .plan-5g {
+  float: right;
+  width: 50px;
+  height: 45px;
+  background: #0B2739;
+  border-radius: 11.04px 0px 0px 11.04px;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-header .card-port-equipment-header-plan-5g .plan-5g .plan-5g-spinner {
+  background: url("./img/5g-spinner-plan-card-offers.svg") no-repeat center center;
+  width: 30px;
+  height: 29px;
+  margin: 9px auto 8px auto;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-header .card-port-equipment-header-plan-5g .plan-5g .plan-5g-icon {
+  position: absolute;
+  background: url("./img/5g-plan-card-offers.svg") no-repeat center center;
+  width: 23px;
+  height: 23px;
+  top: 45px;
+  right: 13px;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-body {
+  padding: 0 20px 5px 20px;
+  text-align: center;
+  display: flex;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-body .card-port-equipment-body-img {
+  background: url("./img/370x700_xiaomi_redmi_9_grey 1.svg") no-repeat center center;
+  width: 82px;
+  height: 150px;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-body .card-port-equipment-body-description {
+  padding: 10px;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-body .card-port-equipment-body-description .card-port-equipment-body-description-list {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-body .card-port-equipment-body-description .card-port-equipment-body-description-list .card-port-equipment-body-description-featured {
+  display: inline-flex;
+  margin-right: 5px;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-body .card-port-equipment-body-description .card-port-equipment-body-description-list .card-port-equipment-body-description-featured i {
+  width: 20px;
+  height: 12px;
+  align-self: center;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-body .card-port-equipment-body-description .card-port-equipment-body-description-list .card-port-equipment-body-description-featured .icon-card-capacidad:before {
+  content: url("./img/phone-description/capacidad-description.svg");
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-body .card-port-equipment-body-description .card-port-equipment-body-description-list .card-port-equipment-body-description-featured .icon-card-pantalla:before {
+  content: url("./img/phone-description/pantalla-description.svg");
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-body .card-port-equipment-body-description .card-port-equipment-body-description-list .card-port-equipment-body-description-featured .icon-card-camera:before {
+  content: url("./img/phone-description/camera-description.svg");
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-body .card-port-equipment-body-description .card-port-equipment-body-description-way-pay {
+  padding-top: 30px;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-body .card-port-equipment-body-description .card-port-equipment-body-description-way-pay .card-port-equipment-body-description-pie {
+  font: 16px TelefonicaWeb-Bold;
+  color: #313235;
+  background: #EBEBEB;
+  width: fit-content;
+  padding: 2px 6px;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-body .card-port-equipment-body-description .card-port-equipment-body-description-way-pay .card-port-equipment-body-description-share {
+  color: #313235;
+  width: fit-content;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-separation-plus .card-port-equipment-separation-line-plus {
+  background: url("./img/separation.svg");
+  width: 248px;
+  height: 12px;
+  margin: auto;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-footer {
+  padding: 15px;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-footer .lines-port-equipment {
+  font: 14px TelefonicaWeb-Bold;
+  background-color: #E63780;
+  color: #fff;
+  line-height: 1;
+  padding: 4px 6px 4px 6px;
+  border-radius: 4px;
+  text-align: center;
+  width: auto;
+  margin: auto;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-footer .card-port-equipment-plan-movil {
+  display: flex;
+  align-items: center;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-footer .card-port-equipment-plan-movil h5 {
+  color: #313235;
+  font: 16px TelefonicaWeb-Regular;
+  margin: 10px 0;
+  width: 90%;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-footer .card-port-equipment-plan-movil h5 strong {
+  font-family: TelefonicaWeb-Bold;
+  display: block;
+  font-size: 20px;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-footer .card-port-equipment-plan-movil .card-port-equipment-plan-movil-price {
+  color: #0B2739;
+  text-align: right;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-footer .card-port-equipment-plan-movil .card-port-equipment-plan-movil-price strong {
+  font-family: TelefonicaWeb-Bold;
+  font-size: 20px;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-footer .card-port-equipment-plan-movil .card-port-equipment-plan-movil-price .card-port-equipment-plan-movil-price-currency, .container-port-equipment .card-port-equipment .card-port-equipment-footer .card-port-equipment-plan-movil .card-port-equipment-plan-movil-price .card-port-equipment-plan-movil-price-each {
+  font-family: TelefonicaWeb-Regular !important;
+  font-style: normal;
+  font-size: 12px;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-footer .card-port-equipment-separation .card-port-equipment-separation-line {
+  border-top: solid 1px #EBEBEB;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-footer .card-port-equipment-footer-total-price {
+  color: #0B2739;
+  text-align: center;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-footer .card-port-equipment-footer-total-price span {
+  font-family: TelefonicaWeb-Bold;
+  margin-right: 5px;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-footer .card-port-equipment-footer-total-price strong {
+  color: #019DF4;
+  font-family: TelefonicaWeb-Bold;
+  font-size: 30px;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-footer .card-port-equipment-footer-total-price .card-port-equipment-total-price-currency, .container-port-equipment .card-port-equipment .card-port-equipment-footer .card-port-equipment-footer-total-price .card-port-equipment-total-price-each {
+  color: #019DF4;
+  font-family: TelefonicaWeb-Regular !important;
+  font-style: normal;
+  font-size: 12px;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-footer .btn-port-equipment {
+  font: 14px TelefonicaWeb-Regular;
+  background: #019DF4;
+  color: #fff;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: auto;
+}
+.container-port-equipment .card-port-equipment .card-port-equipment-footer .btn-port-equipment:hover {
+  background: #0A7AC9;
+}
+.container-port-equipment .card-port-equipment:hover .plan-5g-icon {
+  animation: blink-plan-5g 1s linear;
+}
+@keyframes blink-plan-5g {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.container-port-equipment .card-port-equipment:hover .plan-5g-spinner {
+  animation: spin-plan-5g 3s linear infinite;
+}
+@keyframes spin-plan-5g {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*********RENUEVA TU EQUIPO*********/
+.container-new-equipment {
+  display: flex;
+}
+.container-new-equipment .card-new-equipment {
+  margin: 20px;
+  width: 272px;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-header {
+  display: flex;
+  align-items: center;
+  border-top: 4px solid #0B2739;
+  border-radius: 5px 5px 0 0;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-header .card-new-equipment-header-featured {
+  content: "Oferta destacada";
+  position: absolute;
+  padding: 7px 25px 6px;
+  display: inline-block;
+  background: #0B2739;
+  border-radius: 0 0 11px 11px;
+  margin: auto;
+  right: 0px;
+  left: 0;
+  top: 0px;
+  width: max-content;
+  z-index: 1;
+  font-family: TelefonicaWeb-Bold;
+  font-size: 12px;
+  line-height: 1;
+  color: #fff;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-header .card-new-equipment-header-title {
+  width: 90%;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-header .card-new-equipment-header-title h5 {
+  color: #313235;
+  font: 16px TelefonicaWeb-Regular;
+  padding: 0 15px;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-header .card-new-equipment-header-title h5 strong {
+  font-family: TelefonicaWeb-Bold;
+  display: block;
+  font-size: 24px;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-header .card-new-equipment-header-plan-5g .plan-5g {
+  float: right;
+  width: 50px;
+  height: 45px;
+  background: #0B2739;
+  border-radius: 11.04px 0px 0px 11.04px;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-header .card-new-equipment-header-plan-5g .plan-5g .plan-5g-spinner {
+  background: url("./img/5g-spinner-plan-card-offers.svg") no-repeat center center;
+  width: 30px;
+  height: 29px;
+  margin: 9px auto 8px auto;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-header .card-new-equipment-header-plan-5g .plan-5g .plan-5g-icon {
+  position: absolute;
+  background: url("./img/5g-plan-card-offers.svg") no-repeat center center;
+  width: 23px;
+  height: 23px;
+  top: 45px;
+  right: 13px;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-body {
+  padding: 0 20px 5px 20px;
+  text-align: center;
+  display: flex;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-body .card-new-equipment-body-img {
+  background: url("./img/370x700_xiaomi_redmi_9_grey 1.svg") no-repeat center center;
+  width: 82px;
+  height: 150px;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-body .card-new-equipment-body-description {
+  padding: 10px;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-body .card-new-equipment-body-description .card-new-equipment-body-description-list {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-body .card-new-equipment-body-description .card-new-equipment-body-description-list .card-new-equipment-body-description-featured {
+  display: inline-flex;
+  margin-right: 5px;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-body .card-new-equipment-body-description .card-new-equipment-body-description-list .card-new-equipment-body-description-featured i {
+  width: 20px;
+  height: 12px;
+  align-self: center;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-body .card-new-equipment-body-description .card-new-equipment-body-description-list .card-new-equipment-body-description-featured .icon-card-capacidad:before {
+  content: url("./img/phone-description/capacidad-description.svg");
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-body .card-new-equipment-body-description .card-new-equipment-body-description-list .card-new-equipment-body-description-featured .icon-card-pantalla:before {
+  content: url("./img/phone-description/pantalla-description.svg");
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-body .card-new-equipment-body-description .card-new-equipment-body-description-list .card-new-equipment-body-description-featured .icon-card-camera:before {
+  content: url("./img/phone-description/camera-description.svg");
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-body .card-new-equipment-body-description .card-new-equipment-body-description-way-pay {
+  padding-top: 30px;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-body .card-new-equipment-body-description .card-new-equipment-body-description-way-pay .card-new-equipment-body-description-pie {
+  font: 16px TelefonicaWeb-Bold;
+  color: #313235;
+  background: #EBEBEB;
+  width: fit-content;
+  padding: 2px 6px;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-body .card-new-equipment-body-description .card-new-equipment-body-description-way-pay .card-new-equipment-body-description-share {
+  color: #313235;
+  width: fit-content;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-separation-plus .card-new-equipment-separation-line-plus {
+  background: url("./img/separation.svg");
+  width: 248px;
+  height: 12px;
+  margin: auto;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-footer {
+  padding: 15px;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-footer .lines-new-equipment {
+  font: 14px TelefonicaWeb-Bold;
+  background-color: #E63780;
+  color: #fff;
+  line-height: 1;
+  padding: 4px 6px 4px 6px;
+  border-radius: 4px;
+  text-align: center;
+  width: auto;
+  margin: auto;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-footer .card-new-equipment-plan-movil {
+  display: flex;
+  align-items: center;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-footer .card-new-equipment-plan-movil h5 {
+  color: #313235;
+  font: 16px TelefonicaWeb-Regular;
+  margin: 10px 0;
+  width: 90%;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-footer .card-new-equipment-plan-movil h5 strong {
+  font-family: TelefonicaWeb-Bold;
+  display: block;
+  font-size: 20px;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-footer .card-new-equipment-plan-movil .card-new-equipment-plan-movil-price {
+  color: #0B2739;
+  text-align: right;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-footer .card-new-equipment-plan-movil .card-new-equipment-plan-movil-price strong {
+  font-family: TelefonicaWeb-Bold;
+  font-size: 20px;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-footer .card-new-equipment-plan-movil .card-new-equipment-plan-movil-price .card-new-equipment-plan-movil-price-currency, .container-new-equipment .card-new-equipment .card-new-equipment-footer .card-new-equipment-plan-movil .card-new-equipment-plan-movil-price .card-new-equipment-plan-movil-price-each {
+  font-family: TelefonicaWeb-Regular !important;
+  font-style: normal;
+  font-size: 12px;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-footer .card-new-equipment-separation .card-new-equipment-separation-line {
+  border-top: solid 1px #EBEBEB;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-footer .card-new-equipment-footer-total-price {
+  color: #0B2739;
+  text-align: center;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-footer .card-new-equipment-footer-total-price span {
+  font-family: TelefonicaWeb-Bold;
+  margin-right: 5px;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-footer .card-new-equipment-footer-total-price strong {
+  color: #019DF4;
+  font-family: TelefonicaWeb-Bold;
+  font-size: 30px;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-footer .card-new-equipment-footer-total-price .card-new-equipment-total-price-currency, .container-new-equipment .card-new-equipment .card-new-equipment-footer .card-new-equipment-footer-total-price .card-new-equipment-total-price-each {
+  color: #019DF4;
+  font-family: TelefonicaWeb-Regular !important;
+  font-style: normal;
+  font-size: 12px;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-footer .btn-new-equipment {
+  font: 14px TelefonicaWeb-Regular;
+  background: #019DF4;
+  color: #fff;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: auto;
+}
+.container-new-equipment .card-new-equipment .card-new-equipment-footer .btn-new-equipment:hover {
+  background: #0A7AC9;
+}
+.container-new-equipment .card-new-equipment:hover .plan-5g-icon {
+  animation: blink-plan-5g 1s linear;
+}
+@keyframes blink-plan-5g {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.container-new-equipment .card-new-equipment:hover .plan-5g-spinner {
+  animation: spin-plan-5g 3s linear infinite;
+}
+@keyframes spin-plan-5g {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
